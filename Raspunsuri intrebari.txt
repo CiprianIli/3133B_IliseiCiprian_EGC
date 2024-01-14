@@ -1,0 +1,21 @@
+1.Utilizarea texturilor în procesul de rendering cu OpenGL poate fi aplicată atât pe imagini cu transparență, 
+cât și pe cele fără. Texturile transparente permit crearea unor efecte vizuale complexe, inclusiv regiuni transparente
+ și semi-transparente în cadrul scenelor. Aceasta oferă posibilitatea de a interacționa vizual mai bogat și mai detaliat
+ între elementele din scenă.
+
+2.În procesul de texturare în OpenGL, sunt acceptate diverse formate de imagine precum JPEG, PNG, BMP și TIFF.
+ Aceste formate permit definirea texturilor care vor fi aplicate pe obiectele 3D din scenă. Alegerea formatului potrivit 
+permite dezvoltatorilor să se adapteze nevoilor specifice ale proiectului lor, asigurând calitatea și eficiența necesară.
+
+3.Modificarea culorii obiectului texturat în OpenGL se realizează prin manipularea canalelor RGB ale texturii. 
+Prin ajustarea intensității acestor canale, poți obține o gamă variată de culori și efecte vizuale. 
+Modificările aduse valorilor canalelor influențează direct aspectul culorii obiectului, permițând creatorilor să 
+creeze iluzii vizuale captivante, să evidențieze detalii specifice sau să obțină efecte artistice remarcabile.
+
+4.Diferențele dintre o scenă cu iluminare activată și dezactivată în ceea ce privește obiectele texturate sunt următoarele:
+ Într-o scenă OpenGL în care iluminarea este activată, obiectele texturate reacționează la lumina ambientală și 
+direcțională, ceea ce permite o reprezentare realistă a luminii și umbrelor. Pe de altă parte, atunci când iluminarea 
+este dezactivată, obiectele texturate nu vor reflecta aceste schimbări de lumină, rezultând într-o aparență mai plată 
+și lipsită de detalii a obiectelor. Prin activarea iluminatului se adaugă realism și profunzime scenei, în timp ce
+ dezactivarea acestuia poate fi utilă în anumite situații artistice sau pentru optimizarea performanței.
+
